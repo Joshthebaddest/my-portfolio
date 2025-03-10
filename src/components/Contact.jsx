@@ -46,7 +46,7 @@ const Contact = () => {
               <i className="fas fa-map-marker-alt"></i>
               <div>
                 <h3>Location</h3>
-                <p>San Francisco, CA</p>
+                <p>Lagos, Nigeria.</p>
               </div>
             </div>
             
@@ -54,7 +54,7 @@ const Contact = () => {
               <i className="fas fa-envelope"></i>
               <div>
                 <h3>Email</h3>
-                <p>josh@example.com</p>
+                <p>gabrielmarvelous1@gmail.com</p>
               </div>
             </div>
             
@@ -62,7 +62,8 @@ const Contact = () => {
               <i className="fas fa-phone"></i>
               <div>
                 <h3>Phone</h3>
-                <p>+1 (555) 123-4567</p>
+                <p>+234 (902) 491-1623</p>
+                <p>+234 (705) 492-8062</p>
               </div>
             </div>
             
@@ -77,66 +78,6 @@ const Contact = () => {
                 <i className="fab fa-twitter"></i>
               </a>
             </div>
-          </div>
-          
-          <div className="contact-form">
-            {formStatus === 'success' && (
-              <div className="form-status success">
-                Message sent successfully!
-              </div>
-            )}
-            
-            <form onSubmit={handleSubmit}>
-              <div className="form-group">
-                <label htmlFor="name">Name</label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                />
-              </div>
-              
-              <div className="form-group">
-                <label htmlFor="email">Email</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                />
-              </div>
-              
-              <div className="form-group">
-                <label htmlFor="subject">Subject</label>
-                <input
-                  type="text"
-                  id="subject"
-                  name="subject"
-                  value={formData.subject}
-                  onChange={handleChange}
-                  required
-                />
-              </div>
-              
-              <div className="form-group">
-                <label htmlFor="message">Message</label>
-                <textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                  rows="5"
-                ></textarea>
-              </div>
-              
-              <button type="submit" className="btn">Send Message</button>
-            </form>
           </div>
         </div>
       </div>

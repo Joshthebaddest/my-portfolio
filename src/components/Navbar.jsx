@@ -30,7 +30,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container">
         <div className="navbar-content">
-          <a href="#home" className="logo">Josh.dev</a>
+          <a href="#home" className="logo">Marvelous.dev</a>
           
           <div className="navbar-right">
             <div className={`nav-links ${menuOpen ? 'active' : ''}`}>

@@ -8,11 +8,11 @@ const Hero = () => {
         <div className="hero-content">
           <h1 className="hero-title">
             <span className="greeting">Hi, I'm</span>
-            <span className="name">Josh Smith</span>
+            <span className="name">Marvelous Okem</span>
             <span className="role">Full Stack Developer</span>
           </h1>
           <p className="hero-description">
-            I build exceptional and accessible digital experiences for the web.
+            I build exceptional, inclusive products and accessible digital experiences for the web.
           </p>
           <div className="hero-buttons">
             <a href="#projects" className="btn">View Projects</a>

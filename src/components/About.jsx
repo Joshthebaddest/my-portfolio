@@ -12,9 +12,9 @@ const About = () => {
           </div>
           <div className="about-text">
             <p>
-              Hello! I'm Josh, a passionate full-stack developer with a love for creating
+              Hello! I'm Marvelous, a passionate full-stack developer with a love for creating
               interactive and responsive web applications. My journey in web development
-              started 5 years ago, and since then, I've been continuously learning and
+              started 2 years ago, and since then, I've been continuously learning and
               improving my skills.
             </p>
             <p>
@@ -23,7 +23,7 @@ const About = () => {
               efficient code and building user-friendly applications.
             </p>
             <p>
-              When I'm not coding, you can find me hiking, reading tech blogs, or experimenting
+              When I'm not coding, you can find me reading tech blogs, or experimenting
               with new technologies. I'm always open to new challenges and opportunities to grow.
             </p>
             <div className="about-buttons">

@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-logo">
-            <a href="#home">Josh.dev</a>
+            <a href="#home">Marvelous.dev</a>
           </div>
           
           <div className="footer-nav">
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; {currentYear} Josh Smith. All rights reserved.</p>
+          <p>&copy; {currentYear} Marvelous Okem. All rights reserved.</p>
         </div>
       </div>
     </footer>
