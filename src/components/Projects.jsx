@@ -30,8 +30,8 @@ const Projects = () => {
       title: 'SecureMe passeord Generator',
       description: 'A secure password generator web application for a fictional company, SecureMe Inc.',
       image: image1,
-      technologies: ['Javascrypt', 'React js', 'CSS'],
-      category: 'frontend',
+      technologies: ['Javascrypt', 'React js', 'CSS', 'Python', 'Flask'],
+      category: 'fullstack',
       liveLink: 'https://secureme-generator.vercel.app/',
     },
   ];
