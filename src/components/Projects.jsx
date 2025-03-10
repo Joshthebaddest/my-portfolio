@@ -1,5 +1,7 @@
 
 import React, { useState } from 'react';
+import image1 from '../assets/images/plant-planet.png';
+import image2 from '../assets/images/secureme-password.png';
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -17,11 +19,20 @@ const Projects = () => {
     {
       id: 2,
       title: 'Plant Place E-Commerce Website',
-      description: 'A Website for purchasing plant and so on',
-      image: 'https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=932&q=80',
+      description: 'A website for a fictional plant company.',
+      image: image2,
       technologies: ['Javascrypt', 'React js', 'CSS'],
       category: 'frontend',
       liveLink: 'https://plantpalace-eight.vercel.app/',
+    },
+    {
+      id: 3,
+      title: 'SecureMe passeord Generator',
+      description: 'A secure password generator web application for a fictional company, SecureMe Inc.',
+      image: image1,
+      technologies: ['Javascrypt', 'React js', 'CSS'],
+      category: 'frontend',
+      liveLink: 'https://secureme-generator.vercel.app/',
     },
   ];
 
