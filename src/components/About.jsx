@@ -7,9 +7,6 @@ const About = () => {
       <div className="container">
         <h2 className="section-title">About Me</h2>
         <div className="about-content">
-          <div className="about-image">
-            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="About Josh" />
-          </div>
           <div className="about-text">
             <p>
               Hello! I'm Marvelous, a passionate full-stack developer with a love for creating
