@@ -7,11 +7,16 @@
   padding: 1rem 0;
   z-index: 1000;
   transition: all 0.3s ease-in-out;
-  background-color: transparent;
+  background-color: var(--background-color);
+  /* background-color: transparent; */
 }
 
-.navbar.scrolled {
-  background-color: var(--background-color);
+.dark-mode .navbar {
+  background-color: var(--dark-background-color);
+  color: var(--dark-text-light);
+}
+
+.navbar .scrolled {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   padding: 0.7rem 0;
 }
@@ -37,6 +42,10 @@
 .nav-links {
   display: flex;
   gap: 2rem;
+}
+
+.dark-mode .nav-links a {
+  color: var(--dark-text-light);  
 }
 
 .nav-links a {

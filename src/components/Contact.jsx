@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import lagosMap from '../assets/images/lagos-map.png'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -71,13 +72,17 @@ const Contact = () => {
               <a href="https://github.com/Joshthebaddest" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="https://linkedin.com/in/gabriel-josiah-511198263" target="_blank" rel="noopener noreferrer">
+              <a href="https://linkedin.com/in/marvelous-okem-4b7568372" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin"></i>
               </a>
               <a href="https://x.com/joshDahBaddest" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-twitter"></i>
               </a>
             </div>
+          </div>
+
+          <div className='contact-map'>
+            <img src={lagosMap} alt="lagos map" />
           </div>
         </div>
       </div>
