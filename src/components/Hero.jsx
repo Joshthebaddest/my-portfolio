@@ -1,10 +1,11 @@
 
 import React from 'react';
+import marvelousGbhilify from '../assets/images/marvelous-gbhilify.png';
 
 const Hero = () => {
   return (
     <section id="home" className="hero">
-      <div className="container">
+      <div className="container container-hero">
         <div className="hero-content">
           <h1 className="hero-title">
             <span className="greeting">Hi, I'm</span>
@@ -12,7 +13,7 @@ const Hero = () => {
             <span className="role">Full Stack Developer</span>
           </h1>
           <p className="hero-description">
-            I build exceptional, inclusive products and accessible digital experiences for the web.
+            I build exceptional, inclusive products and accessible software solutions for all platforms.
           </p>
           <div className="hero-buttons">
             <a href="#projects" className="btn">View Projects</a>
@@ -22,13 +23,17 @@ const Hero = () => {
             <a href="https://github.com/Joshthebaddest" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github"></i>
             </a>
-            <a href="https://linkedin.com/in/gabriel-josiah-511198263" target="_blank" rel="noopener noreferrer">
+            <a href="https://linkedin.com/in/marvelous-okem-4b7568372" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin"></i>
             </a>
             <a href="https://x.com/joshDahBaddest" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-twitter"></i>
             </a>
           </div>
+        </div>
+
+        <div className='hero-image-container'>
+          <img src={marvelousGbhilify} alt="Hero" className="hero-image" />
         </div>
       </div>
     </section>

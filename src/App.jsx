@@ -22,6 +22,12 @@ export default function App() {
     }
   }, [darkMode]);
 
+  useEffect(() => {
+    const hour = new Date().getHours();
+    const isDarkTime = hour >= 18 || hour < 6;
+    setDarkMode(isDarkTime);
+  }, []);
+
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
   };

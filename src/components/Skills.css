@@ -2,6 +2,9 @@
 .skills {
   background-color: var(--background-color);
 }
+.dark-mode .skills {
+  background-color: var(--dark-background-color);
+}
 
 .skills-container {
   display: grid;

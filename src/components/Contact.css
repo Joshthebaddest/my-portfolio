@@ -1,16 +1,23 @@
-
 .contact {
   background-color: var(--background-color);
 }
 
+.dark-mode .contact {
+  background-color: var(--dark-background-color);
+}
+
 .contact-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 3rem;
 }
 
 .contact-info {
   flex: 1;
+}
+
+.contact-map {
+  flex: 1.5;
 }
 
 .info-item {
@@ -108,6 +115,8 @@ input:focus, textarea:focus {
   background-color: var(--primary-color);
   color: white;
 }
+
+
 
 @media screen and (min-width: 992px) {
   .contact-container {
