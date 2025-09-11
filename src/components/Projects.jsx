@@ -25,7 +25,7 @@ const Projects = () => {
       image: authauraImg,
       technologies: ['React js', 'Node js', 'Express', 'MongoDB', 'TailwindCss', 'API'],
       category: 'fullstack',
-      liveLink: 'https://plantpalace-eight.vercel.app/',
+      liveLink: 'https://authaura-pi.vercel.app/',
     },
     {
       id: 3,

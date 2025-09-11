@@ -24,7 +24,7 @@ const About = () => {
               with new technologies. I'm always open to new challenges and opportunities to grow.
             </p>
             <div className="about-buttons">
-              <a href="/resume.pdf" className="btn" target="_blank" rel="noopener noreferrer">
+              <a href="/Okem-Marvelous-Mkpe.pdf" className="btn" target="_blank" rel="noopener noreferrer">
                 Download Resume
               </a>
             </div>
