@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import otpifyImg from '../assets/images/otpify.png';
-import image2 from '../assets/images/plant-planet.png';
+import image1 from '../assets/images/plant-planet.png';
 import image2 from '../assets/images/secureme-password.png';
 import vasfoodImg from '../assets/images/vasFood.png';
 import authauraImg from '../assets/images/authaura.png';
