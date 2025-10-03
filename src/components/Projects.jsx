@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import image1 from '../assets/images/plant-planet.png';
+import otpifyImg from '../assets/images/otpify.png';
 import image2 from '../assets/images/secureme-password.png';
 import vasfoodImg from '../assets/images/vasFood.png';
 import authauraImg from '../assets/images/authaura.png';
@@ -31,10 +31,10 @@ const Projects = () => {
       id: 3,
       title: 'OTPify - OTP(one time password) as a service',
       description: 'A developer-focused platform providing OTP generation and delivery via API, allowing easy integration of secure two-factor authentication (2FA) into external applications with token-based validation and configurable delivery methods.',
-      image: image1,
+      image: otpifyImg,
       technologies: ['React ts', 'PHP', 'Laravel', 'Mysql', 'JWT', 'API'],
       category: 'fullstack',
-      liveLink: 'https://authaura-pi.vercel.app/',
+      liveLink: 'https://otpify.vercel.app/',
     },
     {
       id: 4,
